@@ -10,7 +10,7 @@ namespace HammingDistance
      
         static int HammingDistance(string s1, string s2)
         {
-            if (s1.Length != s2.Length)//HammingDistance algoritmasında 2 string aynı uzunlukta olmalı
+            if (s1.Length != s2.Length)
             {
                 throw new Exception("Strings must be of the same length");
             }
@@ -30,7 +30,10 @@ namespace HammingDistance
 
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            string s1 = Console.ReadLine();
+            string s2 = Console.ReadLine();
+
+            Console.WriteLine(HammingDistance(s1,s2));
         }
     }
 }
