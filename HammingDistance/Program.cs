@@ -7,7 +7,7 @@ namespace HammingDistance
         /// <summary>
         /// Aynı uzunluktaki 2 dizenin aynı indis no daki elemanların kaç tanesinin farklı old. gösterir. String veya rakam olabilir.
         /// </summary>
-     
+
         static int HammingDistance(string s1, string s2)
         {
             if (s1.Length != s2.Length)
@@ -33,7 +33,7 @@ namespace HammingDistance
             string s1 = Console.ReadLine();
             string s2 = Console.ReadLine();
 
-            Console.WriteLine(HammingDistance(s1,s2));
+            Console.WriteLine(HammingDistance(s1, s2));
         }
     }
 }

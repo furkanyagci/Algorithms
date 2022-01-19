@@ -1,7 +1,5 @@
-﻿using System.Collections.Generic;
-using System.IO;
-using System.Linq;
-using System;
+﻿using System;
+using System.Collections.Generic;
 
 class Result
 {
@@ -53,6 +51,6 @@ class Solution
 
         int result = Result.sockMerchant(n, ar);
 
-        Console.WriteLine("Çift çorap sayısı : "+result);
+        Console.WriteLine("Çift çorap sayısı : " + result);
     }
 }

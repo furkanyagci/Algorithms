@@ -1,11 +1,11 @@
-﻿using System.Text;
-using System;
+﻿using System;
+using System.Text;
 
 class Result
 {
-/// <summary>
-/// 
-/// </summary>
+    /// <summary>
+    /// 
+    /// </summary>
 
     public static void staircase(int n)
     {

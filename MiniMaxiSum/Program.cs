@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
 
 class Result
 {
@@ -24,7 +23,7 @@ class Result
             max = Math.Max(max, arr[i]);
         }
 
-        Console.WriteLine($"{sum-max} {sum-min}");
+        Console.WriteLine($"{sum - max} {sum - min}");
     }
 
 }
