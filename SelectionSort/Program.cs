@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Diagnostics;
 
 namespace SelectionSort
 {
@@ -6,6 +7,9 @@ namespace SelectionSort
     {
         static void Main(string[] args)
         {
+            Stopwatch watch = new Stopwatch();
+            watch.Start();
+
             int n, temp;
             //n = Convert.ToInt32(Console.ReadLine());
             int[] sayilar = { 1, 2, 3, 10, 6, 4, 7 };//new int[n];
@@ -30,6 +34,11 @@ namespace SelectionSort
             {
                 Console.WriteLine(sayilar[i]);
             }
+
+            watch.Stop();
+            Console.WriteLine(watch.Elapsed.Milliseconds +" ms");
+
+          
 
         }
     }
