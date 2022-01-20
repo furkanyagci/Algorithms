@@ -13,6 +13,7 @@ namespace SelectionSort
             int n, temp;
             int[] sayilar = { 1, 2, 3, 10, 6, 4, 7 };//new int[n];  
 
+            //Array.Sort(sayilar);
             //1.Yöntem
             for (int i = 1; i < sayilar.Length; i++)
             {
